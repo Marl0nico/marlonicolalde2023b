@@ -10,7 +10,7 @@ public class Ahorcado {
         for(int i=0; i<palabrAdivinada.length; i++) {
             palabrAdivinada[i]='_';
         }
-        intentos=6;
+        intentos=7;
     }
     public void juego(){
         Scanner scanner=new Scanner(System.in);
